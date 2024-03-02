@@ -8,7 +8,8 @@ export default function App() {
     <main>
 
     </main>
-    <Footer/>
+    <h5>--- dev</h5>
+    <Footer/> 
   </div>
   );
 }

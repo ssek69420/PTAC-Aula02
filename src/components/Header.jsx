@@ -2,7 +2,7 @@
 export default function Header(){
     return(
         <header>
-            <h1 id="cabeca">Cabeça de alho</h1>
+            <h1>Cabeça de alho</h1>
         </header>
     );
 }
