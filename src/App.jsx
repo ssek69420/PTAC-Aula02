@@ -1,5 +1,6 @@
-import Header from "./components/Header";
+import Header from "./components/Header"
 import Footer from "./components/Footer"
+import "./globals.css"
 
 export default function App() {
   return(
@@ -8,7 +9,7 @@ export default function App() {
     <main>
 
     </main>
-    <h5>--- dev</h5>
+    <h5 class="dev">A cebola lhe faz chorar, alho lhe faz gostar (alho é bom)</h5>
     <Footer/> 
   </div>
   );
