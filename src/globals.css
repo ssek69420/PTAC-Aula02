@@ -9,8 +9,8 @@ header{
     text-align: center;
 }
 
-h3{
-    float: left;
+.name{
+    text-align: center;
 }
 
 h6{
