@@ -4,15 +4,17 @@ export default function Main(){
     const [name, setName] = useState("")
     const [surname, setSurName] = useState("")
     const [telefone, setTelefone] = useState(0)
-    const [listaContatos, saved, setListaContatos] = useState([])
+    const [listaContatos, setListaContatos] = useState([])
 
     const registrar = (event) =>{
         event.preventDefault();
-        const saved = {
+        setListaContatos([...listaContatos, {
             savedName: name,
-            savedContact: listaContatos //bah, eu tentei :)
-        }
+            savedPhone: telefone,
+
+        }])
     }
+    console.table(listaContatos);
 
     return(
 <main> 
