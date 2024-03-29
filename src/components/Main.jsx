@@ -2,12 +2,16 @@ import { useState } from "react";
 
 export default function Main(){
     const [name, setName] = useState("")
+    const [surname, setSurName] = useState("")
     const [telefone, setTelefone] = useState(0)
-    const [listaContatos, setListaContatos] = useState([])
+    const [listaContatos, saved, setListaContatos] = useState([])
 
     const registrar = (event) =>{
         event.preventDefault();
-        alert("Olá ${name}")
+        const saved = {
+            savedName: name,
+            savedContact: listaContatos //bah, eu tentei :)
+        }
     }
 
     return(
@@ -20,6 +24,14 @@ export default function Main(){
         id="name"
         value={name}
         onChange={(event)=> setName(event.target.value)}
+        />
+        <label htmlFor="surname">Surname: </label>
+        <input
+        type="text"
+        name="surname-contato"
+        id="surname"
+        value={surname}
+        onChange={(event) => setSurName(event.target.value)}
         />
 
         <label htmlFor="telefone">Phone:</label>
