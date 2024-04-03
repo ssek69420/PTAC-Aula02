@@ -1,8 +1,19 @@
-
 export default function Header(){
     return(
-        <header>
-            <h1>phone</h1>
-        </header>
-    );
+        <div className="headercontainer">
+            <header className="cabecalho">
+                <a href="#"><h1 className="logo">WS</h1></a>
+                <div className="container-header-separation">
+                    <div className="header-separation">
+                <ul>
+                    
+                    <li>
+                        <a href="#projects" className="headerproj">My proj.</a>
+                    </li>
+                </ul>
+                    </div>
+                </div>
+            </header>
+        </div>
+    )
 }

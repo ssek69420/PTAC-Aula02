@@ -1,54 +1,49 @@
-import { useState } from "react";
-
 export default function Main(){
-    const [name, setName] = useState("")
-    const [surname, setSurName] = useState("")
-    const [telefone, setTelefone] = useState(0)
-    const [listaContatos, setListaContatos] = useState([])
-
-    const registrar = (event) =>{
-        event.preventDefault();
-        setListaContatos([...listaContatos, {
-            savedName: name,
-            savedPhone: telefone,
-
-        }])
-    }
-    console.table(listaContatos);
-
     return(
-<main> 
-    <form action="" onSubmit={registrar}>
-    <label htmlFor="name">Name: </label>
-        <input
-        type="text"
-        name="name-contato"
-        id="name"
-        value={name}
-        onChange={(event)=> setName(event.target.value)}
-        />
-        <label htmlFor="surname">Surname: </label>
-        <input
-        type="text"
-        name="surname-contato"
-        id="surname"
-        value={surname}
-        onChange={(event) => setSurName(event.target.value)}
-        />
+        <div>
+<head>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+  />
+</head>
+<body>
+    <section className="home">
+        <div className="info">
+            <h1>Insert random text</h1>
+            <p>Insert random little text (like your dick LOLLLL)</p>
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        <i className="fab fa-instagram"/>
+                        
+                    </a>
+                </li>
 
-        <label htmlFor="telefone">Phone:</label>
-        <input
-            type="tel"
-            name="telefone-contato"
-            id="telefone"
-            value={telefone}
+                <li>
+                    <a href="#"><i className="fab fa-facebook"/></a>
+                </li>
 
-            onChange={(event) => setTelefone(event.target.value)}
-            />
-            <button>Salvar:</button>
-        </form>
-</main>
+                <li>
+                    <a href="#">
+                        <i className="fab fa-whatsapp"></i></a>
+                </li>
 
+                <li><a href="#">
+                    <i className="fab fa-github"></i>
+                    </a></li>
+            </ul>
+        </div>
+    </section>
+        <section className="projects" id="projects">
+        <h2 className="title">My projects</h2>
+        <div className="container-proj"></div>
+        </section>
+</body>
+</div>
     )
-
 }

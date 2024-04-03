@@ -1,38 +1,39 @@
-header{
-    background-color: wheat;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+body{
+    background-color:antiquewhite
+}
+
+.cabecalho{
+    background-color: blue;
+    border-radius: 5px;
+    float: center;
+}
+
+.logo{
+    color: chocolate;
+}
+
+.headerproj{
+    color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-separation{
+    background-color:brown;
     border-radius: 5px;
 }
 
-.dev{
-    text-align: center;
+
+
+
+/*icons*/
+.fab{
+    border: 2px black solid;
 }
 
-.name{
-    text-align: center;
+li{
+    justify-content: center;
 }
 
-h6{
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
-
-img{
-    border-radius: 10px;
-    border: 10px solid rgb(130, 77, 25);
-    border-style: dashed;
-}
-
-footer {
-    background-color: #2c3e50; 
-    color: #ecf0f1; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 500px; 
-    overflow: scroll; 
-    padding: 20px; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    border-radius: 3px;
+li::marker{
+    display: hidden;
 }
