@@ -1,26 +1,45 @@
 body{
-    background-color:antiquewhite
+    margin: 0 auto;
+    max-width: 1120px;
+    font-family: "Poppins", sans-serif;
+    background-color: #282828;
 }
+
+
 
 .cabecalho{
-    background-color: blue;
-    border-radius: 5px;
-    float: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px; /*Deixa a box do header mais larga*/
 }
 
-.logo{
+.cabecalho .logo{ /*Para ser mais específico*/
     color: chocolate;
+    border-radius: 50%;
+    border: 6px white solid;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.2s;
 }
 
-.headerproj{
-    color: chocolate;
-    font-family: 'Courier New', Courier, monospace;
+.cabecalho a:hover .logo{
+    color: yellow;
+    border: 10px solid black;
+    border-radius: 50%;
+
 }
 
-.header-separation{
-    background-color:brown;
-    border-radius: 5px;
+.cabecalho .header-separation ul{
+    background: white;
 }
+
+.cabecalho .container-header-separation .header-separation .headerproj li{
+    color: red;
+}
+
+.cabecalho .container-header-separation .header-separation .headerproj li a:hover{
+    background-repeat: repeat; /*idk*/
+}
+
 
 
 
@@ -28,12 +47,10 @@ body{
 /*icons*/
 .fab{
     border: 2px black solid;
-}
-
-li{
-    justify-content: center;
+    border-radius: 50%;
+    color: white;
 }
 
 li::marker{
-    display: hidden;
+    justify-content: center;
 }
