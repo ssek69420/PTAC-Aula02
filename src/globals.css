@@ -5,7 +5,9 @@ body{
     background-color: #282828;
 }
 
-
+.headerproj{
+    background-color: black
+}
 
 .cabecalho{
     display: flex;
