@@ -3,15 +3,15 @@ export default function Footer(){
         <div>
             <footer>
                 <div className="leftpart">
-                    <h3>Write something here</h3>
+                    <h3>aaaaaaaaaaaaaaaaaaa</h3>
                 </div>
 
                 <div className="centerpart">
-                    <h1>Something big</h1>
+                    <h1>homem aranha 3 é bom</h1>
                 </div>
 
                 <div className="rightpart">
-                    <h3>Something annoying</h3>
+                    <h3>kaike esteve aqui</h3>
                 </div>
             </footer>
         </div>

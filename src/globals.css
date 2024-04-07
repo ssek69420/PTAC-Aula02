@@ -14,7 +14,14 @@ radial-gradient(at 53% 33%, hsla(78,69%,73%,1) 0px, transparent 50%);
 }
 
 .headerproj{
-    background-color: black
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .cabecalho{
@@ -38,7 +45,6 @@ radial-gradient(at 53% 33%, hsla(78,69%,73%,1) 0px, transparent 50%);
 }
 
 .home:hover{
-    border-radius: 90%;
     border-color: yellow;
 }
 
@@ -87,6 +93,7 @@ a{
 
 .centerpart{
     text-align: center;
+    max-width: 1000px;
 }
 
 .rightpart{
