@@ -2,7 +2,15 @@ body{
     margin: 0 auto;
     max-width: 1120px;
     font-family: "Poppins", sans-serif;
-    background-color: #282828;
+    background-color:#ca99ff;
+background-image:
+radial-gradient(at 57% 7%, hsla(264,95%,66%,1) 0px, transparent 50%),
+radial-gradient(at 89% 17%, hsla(301,93%,63%,1) 0px, transparent 50%),
+radial-gradient(at 57% 75%, hsla(68,60%,74%,1) 0px, transparent 50%),
+radial-gradient(at 28% 20%, hsla(67,90%,78%,1) 0px, transparent 50%),
+radial-gradient(at 88% 98%, hsla(15,82%,66%,1) 0px, transparent 50%),
+radial-gradient(at 18% 44%, hsla(352,78%,68%,1) 0px, transparent 50%),
+radial-gradient(at 53% 33%, hsla(78,69%,73%,1) 0px, transparent 50%);
 }
 
 .headerproj{
@@ -18,33 +26,76 @@ body{
 .cabecalho .logo{ /*Para ser mais específico*/
     color: chocolate;
     border-radius: 50%;
-    border: 6px white solid;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px white solid;
+    font-family:'Times New Roman', Times, serif;
     transition: 0.2s;
 }
 
-.cabecalho a:hover .logo{
-    color: yellow;
-    border: 10px solid black;
-    border-radius: 50%;
+.home{
+    border: solid black 2px;
+    color: aqua;
+    transition: 1s;
+}
 
+.home:hover{
+    border-radius: 90%;
+    border-color: yellow;
+}
+
+.cards{
+    border: red 2px solid;
+    justify-content: space-between;
+    overflow: hidden;
+    max-height: 300px;
+    transition: 1s;
+}
+
+.cards:hover{
+    max-height: 1120px
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho a:hover .logo{
+    color: red;
+    border: 10px solid aquamarine;
+    border-radius: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .cabecalho .header-separation ul{
     background: white;
 }
 
-.cabecalho .container-header-separation .header-separation .headerproj li{
-    color: red;
+.cabecalho .container-header-separation .header-separation .headerproj{
+    color: white;
 }
 
-.cabecalho .container-header-separation .header-separation .headerproj li a:hover{
-    background-repeat: repeat; /*idk*/
+.container-proj{
+    border: 2px yellow solid;
+    overflow: hidden;
+    max-width: 1120px;
 }
 
+.leftpart{
+    float: left;
+}
 
+.centerpart{
+    text-align: center;
+}
 
+.rightpart{
+    float: right;
+}
 
+footer{
+    text-align: center !important;
+}
 
 /*icons*/
 .fab{

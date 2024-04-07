@@ -40,7 +40,20 @@ export default function Main(){
     </section>
         <section className="projects" id="projects">
         <h2 className="title">My projects</h2>
-        <div className="container-proj"></div>
+        <div className="container-proj">
+            <div className="card-container">
+                <div className="cards">
+                    <img src="src/components/images/projeto-gta.png" alt="gh" />
+                </div>
+            </div>
+
+            <div className="card-container">
+                <div className="cards">
+                <img src="src/components/images/projeto-x-men.png" alt="mag" />
+                </div>
+            </div>
+            
+        </div>
         </section>
 </body>
 </div>

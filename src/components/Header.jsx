@@ -2,7 +2,7 @@ export default function Header(){
     return(
         <div className="headercontainer">
             <header className="cabecalho">
-                <a href="#"><h1 className="logo">WS</h1></a>
+                <a href="#"><h1 className="logo">K.E</h1></a>
                 <div className="container-header-separation">
                 <ul>
                     
